@@ -1,13 +1,9 @@
-import { useState } from 'react'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>
-       <div>sdsd</div>
-    </div>
-  )
+export default function App() {
+	return (
+		<div>
+			<h1 className="text-3xl font-bold underline w-full">
+				Hello world!
+			</h1>
+		</div>
+	);
 }
-
-export default App
